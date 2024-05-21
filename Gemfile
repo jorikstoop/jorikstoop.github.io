@@ -36,4 +36,8 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
+#for local testing
 gem "webrick", "~> 1.8"
+
+#sets all external links to open in new tab
+gem 'jekyll-target-blank'
