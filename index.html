@@ -1,0 +1,78 @@
+---
+layout: default
+section_title: "About Me"
+list_title: "News"
+show_excerpts: false
+---
+
+<div class="home">
+
+  <!-- Optional Page Header -->
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <!-- About Me Section with Image -->  
+  <section class="about-me">
+    <div class="about-me-container">
+      <div class="about-me-text">
+        <h2>{{ page.section_title }}</h2>
+        <p>Hi! I am Jorik Stoop and I am a first-year PhD student at Duke University. 
+          My research interests include computational modeling and biomechanics, 
+          and I am currently working on developing models of blood flow in the Randles Lab.</p>
+      </div>
+      <div class="about-me-image">
+        <img src="/assets/img/foto.png" alt="About Me Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- List of News Posts -->
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title}}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h4>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h4>
+        {%- if page.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</div>
+
+<!-- CSS for layout styling -->
+<style>
+  .about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .about-me-container {
+    display: flex;
+    width: 100%;
+  }
+  .about-me-text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .about-me-image {
+    flex: 1;
+  }
+  .about-me-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+</style>
