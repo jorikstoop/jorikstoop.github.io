@@ -16,14 +16,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+#Navigation Bar
 title: Jorik Stoop
+
+#List Title
+list_title: News
+
+#Footer
 email: jorik.stoop@duke.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Dream. Plan. Do.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: http://jorikstoop.com # the base hostname & protocol for your site, e.g. http://example.com
 
-#socials included in footer
+#Socials
 github_username:  jorikstoop
 linkedin_username: jorik-stoop
 instagram_username: jorikstoop
