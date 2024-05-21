@@ -19,6 +19,10 @@
 #Navigation Bar
 title: Jorik Stoop
 
+header_pages:
+  - publications.md
+  - projects.md
+
 #Footer
 email: jorik.stoop@duke.edu
 description: >- # this means to ignore newlines until "baseurl:"
