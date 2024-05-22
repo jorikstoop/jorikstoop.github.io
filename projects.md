@@ -35,7 +35,7 @@ I play the alto saxophone. Here are some song covers I made:
             {% else %}
             <span>{{ cover.date }}</span>
             <audio controls>
-              <source src="{{ cover.source | relative_url }}" type="audio/mp4">
+              <source src="{{ cover.source | relative_url }}" type="audio/mpeg">
               Your browser does not support the audio element.
             </audio>
             {% endif %}
@@ -44,10 +44,6 @@ I play the alto saxophone. Here are some song covers I made:
     </li>
     {% endfor %}
 </ul>
-
-<!--
-
--->
 
 #### My Photography
 
@@ -75,7 +71,6 @@ I play the alto saxophone. Here are some song covers I made:
 <!-- CSS for layout styling -->
 <style>
   .song-list {
-    margin-right: 10px;
     margin-bottom: 15px;
   }
 
