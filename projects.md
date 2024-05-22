@@ -6,10 +6,46 @@ permalink: /projects/
 
 #### My Music
 
+Current Song Recommendations:
+
+<ul class="song-rec-list">
+    {% for song in site.data.song_recs %}
+    <li>
+    <div class="song-list">
+        {{ song.name}}
+        <span>{{ song.by }}</span>
+    </div>
+    </li>
+    {% endfor %}
+</ul>
+
 I play the alto saxophone. Here are some song covers I made:
 
+<ul class="cover-list">
+    {% for cover in site.data.covers %}
+    <li>
+    <div class="song-list">
+        {{ cover.name}}
+        <span>{{ cover.artist }}</span>
+        <span>
+            {% if cover.link %}
+            <a href= "{{ cover.link | relative_url }}" target="_blank" rel="noopener noreferrer">
+              {{ cover.date }}
+            </a>
+            {% else %}
+            <audio controls>
+                <source src="{{ cover.src | relative_url }}" type="aduio/mp4">
+                Your browser does not support the audio element.
+            </audio>
+            {% endif %}
+        </span>
+    </div>
+    </li>
+    {% endfor %}
+</ul>
+
 <!--
-https://youtu.be/8dHgwFFM1ZU
+
 -->
 
 #### My Photography
@@ -37,6 +73,11 @@ https://youtu.be/8dHgwFFM1ZU
 
 <!-- CSS for layout styling -->
 <style>
+  .song-list {
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
   .photography-row {
     display: flex;
     align-items: center;
