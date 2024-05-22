@@ -33,9 +33,10 @@ I play the alto saxophone. Here are some song covers I made:
               {{ cover.date }}
             </a>
             {% else %}
+            <span>{{ cover.date }}</span>
             <audio controls>
-                <source src="{{ cover.src | relative_url }}" type="aduio/mp4">
-                Your browser does not support the audio element.
+              <source src="{{ cover.source | relative_url }}" type="audio/mp4">
+              Your browser does not support the audio element.
             </audio>
             {% endif %}
         </span>

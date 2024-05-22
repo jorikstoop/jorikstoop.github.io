@@ -6,14 +6,14 @@
 - name: Have Yourself a Merry Little Christmas
   artist: "- Kenny G"
   date: (2020)
-  src: 'assets/audio/have_yourself_a_merry_little_christmas.m4a'
+  source: /assets/audio/have_yourself_a_merry_little_christmas.m4a
 
 - name: See You Again
   artist: "- Tyler, the Creator ft. Kali Uchis"
   date: (2020)
-  src: 'assets/audio/see_you_again.m4a'
+  source: /assets/audio/see_you_again.m4a
 
 - name: Good Days
   artist: "- SZA"
-  date: (2020)
-  src: 'assets/audio/good_days.m4a'
+  date: (2021)
+  source: /assets/audio/good_days.m4a
