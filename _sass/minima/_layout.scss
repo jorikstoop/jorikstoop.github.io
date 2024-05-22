@@ -181,6 +181,17 @@
   }
 }
 
+/*
+* Home Page
+*/
+
+@include media-query($on-palm) {
+  .about-me-container{
+    width: 100%;
+  }
+}
+
+
 /**
  * Page content
  */
