@@ -190,8 +190,8 @@
   
   .footer-col-1,
   .footer-col-3{
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: 50%;
+    width: 50%;
     float: none;
   }
 
