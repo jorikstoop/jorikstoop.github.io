@@ -129,7 +129,8 @@
 }
 
 .social-media-list li {
-  margin-right: 30px; /* Adjust spacing as needed */
+  margin-left: 15px; //Equal spacing left and right
+  margin-right: 15px; /* Adjust spacing as needed */
   display: flex;
   align-items: center;
 }
@@ -341,5 +342,69 @@
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
+  }
+}
+
+
+/**
+ * Project Boxes
+ */
+.project-list { //flexbox style
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-container{
+  margin: $spacing-unit/2;
+  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+  width:         calc(30% - (#{$spacing-unit} / 2));
+  height: 200px;
+  background: grey;
+  border-radius: 8px;
+
+  @include media-query($on-palm) {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+  }
+}
+
+.project-link {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; /* Include padding in the width/height calculation */
+  position: relative;
+  display: block;
+}
+
+.project-image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.project-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure image covers the entire container */
+  border-radius: 8px; /* match the container's border-radius on top*/
+}
+
+.project-title-container {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+  color: white; /* Text color */
+  padding: 10px; /* Optional: add some padding */
+  border-top-left-radius: 8px;  /* Apply radius to top left corner */
+  border-top-right-radius: 8px; /* Apply radius to top right corner */
+  box-sizing: border-box;
+
+  @include relative-font-size(1.25);
+  @include media-query($on-laptop) {
+    @include relative-font-size(1);
+  }
+  @include media-query($on-palm) {
+    @include relative-font-size(1);
   }
 }

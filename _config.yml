@@ -36,6 +36,11 @@ github_username:  jorikstoop
 linkedin_username: jorik-stoop
 instagram_username: jorikstoop
 
+#Projects Collection
+collections:
+  projects:
+    output: true
+
 # Build settings
 plugins:
   - jekyll-feed
