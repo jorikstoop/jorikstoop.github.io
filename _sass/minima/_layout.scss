@@ -234,7 +234,7 @@
 }
 @include media-query($on-palm) {
   .about-me-container{
-    width: 100%;
+    display: block;
   }
 }
 
@@ -244,6 +244,7 @@
 }
 .about-me-image {
   flex: 1;
+  text-align: center;
 }
 .about-me-image img {
   max-width: 80%;
