@@ -168,7 +168,7 @@
   width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
-/*
+/* Don't change anything for 600-800px screen size
 @include media-query($on-laptop) {
   .footer-col-1,
   .footer-col-2 {
@@ -183,6 +183,9 @@
 }*/
 
 @include media-query($on-palm) {
+  /* Attempt at getting contact info and site description next to each other with socials underneath
+  * I'm not sure exactly what is wrong but with this code I get all the columns stacked instead of col-1 and col-3
+  * next to each other;
   .footer-col-wrapper{
     flex-direction: column;
     flex-wrap: wrap;
@@ -190,20 +193,29 @@
   
   .footer-col-1,
   .footer-col-3{
-    width: 50%;
-    width: 50%;
-    float: none;
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2)); 
+    float: none; 
   }
 
   .footer-col-1{
-    order: 1;
+    order: 1; 
   }
   .footer-col-3{
-    order: 2;
+    order: 2; 
   }
 
   .footer-col-2{
     order: 3;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));   
+  }*/
+  .footer-col-1,
+  .footer-col-3{
+    display: none; 
+  }
+
+  .footer-col-2{
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width:         calc(100% - (#{$spacing-unit} / 2));   
   }
