@@ -25,6 +25,14 @@ cover_img: /assets/img/foto_cover.png
         <img src="/assets/img/2.jpg" alt="ATL Botanical Garden">
       </div>
     </div>
+      <div class="photography-row">
+      <div class="img-aqua">
+        <img src="/assets/img/5.jpg" alt="Georgia Aquarium">
+      </div>
+      <div class="img-lake">
+        <img src="/assets/img/6.jpg" alt="Lake Lanier">
+      </div>
+    </div> 
   </section>
 
 

@@ -6,7 +6,7 @@ published: true
 cover_img: /assets/img/music_cover.jpg
 ---
 
-#### Current Song Recommendations:
+#### Current Song Recommendations
 
 <ul class="song-rec-list">
     {% for song in site.data.song_recs %}
