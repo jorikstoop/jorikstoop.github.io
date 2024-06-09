@@ -1,19 +1,41 @@
 - name: All of Me
   artist: "- Marks and Simons"
+  type: sax
   date: (My version live 2020)
-  link: https://youtu.be/8dHgwFFM1ZU
+  link: https://youtu.be/8dHgwFFM1ZU #note use "source: /assets/audio/filename" if file is audio file, otherwise use "link: "
 
 - name: Have Yourself a Merry Little Christmas
   artist: "- Kenny G"
+  type: sax
   date: (My version recorded 2020)
-  source: https://youtu.be/HLXoIevnRJE
+  link: https://youtu.be/HLXoIevnRJE
 
 - name: See You Again
   artist: "- Tyler, the Creator ft. Kali Uchis"
+  type: sax
   date: (My version recorded 2020)
-  source: https://youtu.be/cpIfFZqf-aY
+  link: https://youtu.be/cpIfFZqf-aY
 
 - name: Good Days
   artist: "- SZA"
+  type: sax
   date: (My version recorded 2021)
-  source: https://youtu.be/CtXaWSr_sKY
+  link: https://youtu.be/CtXaWSr_sKY
+
+- name: All of Me
+  artist: "- John Legend"
+  type: piano
+  date: (My version recorded 2022)
+  source: /assets/audio/all_of_me.mp3
+
+- name: Moonlight Sonata, 1st Movement
+  artist: "- Beethoven"
+  type: piano
+  date: (My version recorded 2021)
+  source: /assets/audio/moonlight_sonata.mp3
+
+- name: Golden Hour
+  artist: "- JVKE"
+  type: piano
+  date: (My version recorded 2022)
+  source: /assets/audio/golden_hour.mp3

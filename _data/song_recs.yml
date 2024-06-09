@@ -1,8 +1,21 @@
+#current song recommendations:
 - name: Chihiro
   by: "- Billie Eilish"
+  type: current
 
-- name: After Hours 
-  by: "- Kehlani"
+- name: ICU
+  by: "- Coco Jones"
+  type: current
 
 - name: Good Days 
   by: "- SZA"
+  type: current
+
+- name: SUMMER
+  by: "- BROCKHAMPTON"
+  type: current
+
+#previous song recommendations:
+- name: After Hours 
+  by: "- Kehlani"
+  type: previous
