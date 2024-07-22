@@ -21,8 +21,22 @@ cover_img: /assets/img/music_cover.jpg
     {% endfor %}
 </ul>
 
+#### All-time Favorites
 
-#### My Music
+<ul class="song-rec-list">
+    {% for song in site.data.song_recs %}
+    {% if song.type == "alltime"  %}
+    <li>
+    <div class="song-list">
+        {{ song.name}}
+        <span>{{ song.by }}</span>
+    </div>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+### My Music
 I play the alto saxophone. Here are some song covers I made:
 
 <ul class="cover-list">

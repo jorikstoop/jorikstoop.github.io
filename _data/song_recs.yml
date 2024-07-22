@@ -1,21 +1,47 @@
 #current song recommendations:
-- name: Chihiro
-  by: "- Billie Eilish"
+- name: Kiss of Life
+  by: "- Sade"
   type: current
 
-- name: ICU
-  by: "- Coco Jones"
+- name: Pink Pony Club
+  by: "- Chappell Roan"
   type: current
 
-- name: Good Days 
-  by: "- SZA"
+- name: Glory Box 
+  by: "- Portishead"
   type: current
 
-- name: SUMMER
-  by: "- BROCKHAMPTON"
+- name: King
+  by: "- Sarah Kinsley"
   type: current
 
 #previous song recommendations:
+- name: Chihiro
+  by: "- Billie Eilish"
+  type: previous
+
+- name: ICU
+  by: "- Coco Jones"
+  type: previous
+
 - name: After Hours 
   by: "- Kehlani"
   type: previous
+
+
+#all time favorites:
+- name: Ex-factor
+  by: "- Ms. Lauryn Hill"
+  type: alltime
+
+- name: SUMMER
+  by: "- BROCKHAMPTON"
+  type: alltime
+
+- name: Good Days 
+  by: "- SZA"
+  type: alltime
+
+- name: Só Danço Samba
+  by: "- Stan Getz"
+  type: alltime
