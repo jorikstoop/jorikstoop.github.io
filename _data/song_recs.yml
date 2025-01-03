@@ -1,18 +1,18 @@
 #current song recommendations:
-- name: Balloon (feat. Doechii)
-  by: "- Tyler, The Creator"
+- name: DENIAL IS A RIVER
+  by: "- Doechii"
   type: current
 
-- name: NO SZNS
-  by: "- Jean Dawson and SZA"
+- name: Another Life
+  by: "- SZA"
   type: current
 
-- name: Lately
-  by: "- FELIVAND"
+- name: luther (with sza)
+  by: "- Kendrick Lamar, SZA"
   type: current
 
-- name: 30s
-  by: "- Muni Long"
+- name: Sweet Boy
+  by: "- Malcom Todd"
   type: current
 
 #all time favorites:
@@ -33,6 +33,22 @@
   type: alltime
 
 #previous song recommendations:
+- name: Balloon (feat. Doechii)
+  by: "- Tyler, The Creator"
+  type: previous
+
+- name: NO SZNS
+  by: "- Jean Dawson and SZA"
+  type: previous
+
+- name: Lately
+  by: "- FELIVAND"
+  type: previous
+
+- name: 30s
+  by: "- Muni Long"
+  type: previous
+
 - name: Kiss of Life
   by: "- Sade"
   type: previous
