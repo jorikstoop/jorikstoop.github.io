@@ -1,18 +1,14 @@
 #current song recommendations:
-- name: DENIAL IS A RIVER
-  by: "- Doechii"
+- name: POERTY IN MOTION
+  by: "- SiR"
   type: current
 
-- name: Another Life
-  by: "- SZA"
+- name: WELTiTA
+  by: "- Bad Bunny"
   type: current
 
-- name: luther (with sza)
-  by: "- Kendrick Lamar, SZA"
-  type: current
-
-- name: Sweet Boy
-  by: "- Malcom Todd"
+- name: Love Me Not
+  by: "- Ravyn Lenae"
   type: current
 
 #all time favorites:
@@ -75,4 +71,20 @@
 
 - name: After Hours 
   by: "- Kehlani"
+  type: previous
+
+- name: DENIAL IS A RIVER
+  by: "- Doechii"
+  type: previous
+
+- name: Another Life
+  by: "- SZA"
+  type: previous
+
+- name: luther (with sza)
+  by: "- Kendrick Lamar, SZA"
+  type: previous
+
+- name: Sweet Boy
+  by: "- Malcom Todd"
   type: previous
