@@ -22,16 +22,18 @@ title: Jorik Stoop
 header_pages:
   - home.md
   - publications.md
+  - presentations.md
   - projects.md
 
 #Footer
 email: jorik.stoop@duke.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Dream. Plan. Do.
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://jorikstoop.com # the base hostname & protocol for your site, e.g. http://example.com
 
 #Socials
+googlescholar_username: jorikstoop
 github_username:  jorikstoop
 linkedin_username: jorik-stoop
 instagram_username: jorikstoop

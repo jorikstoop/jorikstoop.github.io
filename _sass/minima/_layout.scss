@@ -149,6 +149,8 @@
   padding-left: $spacing-unit / 2;
 }
 
+/* Three column footer with email, socials, and site description */
+/*
 .footer-col-1 {
   order: 1;
   width: -webkit-calc(30% - (#{$spacing-unit} / 2));
@@ -167,7 +169,17 @@
   text-align: right;
   width: -webkit-calc(30% - (#{$spacing-unit} / 2));
   width:         calc(30% - (#{$spacing-unit} / 2));
-}
+}*/
+
+/* footer with only socials */
+  .footer-col-1,
+  .footer-col-3{
+    display: none; 
+  }
+  .footer-col-2{
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));   
+  }
 
 /* Don't change anything for 600-800px screen size
 @include media-query($on-laptop) {
@@ -184,33 +196,7 @@
 }*/
 
 @include media-query($on-palm) {
-  /* Attempt at getting contact info and site description next to each other with socials underneath
-  * I'm not sure exactly what is wrong but with this code I get all the columns stacked instead of col-1 and col-3
-  * next to each other;
-  .footer-col-wrapper{
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  
-  .footer-col-1,
-  .footer-col-3{
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2)); 
-    float: none; 
-  }
-
-  .footer-col-1{
-    order: 1; 
-  }
-  .footer-col-3{
-    order: 2; 
-  }
-
-  .footer-col-2{
-    order: 3;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));   
-  }*/
+  /* For on-palm (narrow screen) only display the middle column with socials */
   .footer-col-1,
   .footer-col-3{
     display: none; 
@@ -234,6 +220,7 @@
   @include relative-font-size(2);
 }
 
+// ABOUT ME
 .about-me {
   margin-bottom: 30px;
 }
@@ -251,7 +238,6 @@
     display: block;
   }
 }
-
 .about-me-text {
   flex: 1;
   margin-right: 20px;
@@ -266,10 +252,15 @@
   border-radius: 8px;
 }
 
-.post-list-heading {
+// EDUCATION
+.education-heading {
   @include relative-font-size(1.75);
 }
 
+// NEWS POSTS
+.post-list-heading {
+  @include relative-font-size(1.75);
+}
 .post-list {
   margin-left: 0;
   list-style: none;
@@ -278,26 +269,26 @@
     margin-bottom: $spacing-unit/5;
   }
 }
-
 .post-container{
   display: flex;
   align-items: top;
 }
-
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
   padding-top: 5px;
   margin-right: 30px;
 }
-
 .post-link {
   display: block;
   //@include relative-font-size(1.5);
   @include relative-font-size(1.25);
 }
 
-
+// AWARDS LIST
+.award-list-heading {
+  @include relative-font-size(1.75);
+}
 
 /**
  * Posts
@@ -305,7 +296,6 @@
 .post-header {
   margin-bottom: $spacing-unit;
 }
-
 .post-title {
   //@include relative-font-size(2.625);
   @include relative-font-size(2);
@@ -316,7 +306,6 @@
     @include relative-font-size(2.25);
   }
 }
-
 .post-content {
   margin-bottom: $spacing-unit;
 

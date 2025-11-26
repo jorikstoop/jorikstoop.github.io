@@ -1,7 +1,9 @@
 ---
 layout: default
-section_title: "About Me"
-list_title: "Recent News"
+subtitle1: "About Me"
+subtitle2: "Education"
+subtitle3: "Recent News"
+subtitle4: "Awards"
 show_excerpts: false
 ---
 
@@ -16,7 +18,7 @@ show_excerpts: false
   <section class="about-me">
     <div class="about-me-container">
       <div class="about-me-text">
-        <h2 class="about-me-heading">{{ page.section_title }}</h2>
+        <h2 class="about-me-heading">{{ page.subtitle1 }}</h2>
         <p>
         {% capture about_me_content %}
         {% include about_me.md %}
@@ -30,9 +32,17 @@ show_excerpts: false
     </div>
   </section>
 
+  <!-- Education Section -->  
+  <section class="education">
+    <h2 class="education-heading">{{ page.subtitle2 }}</h2>
+    <p>
+      B.S. Biomedical Engineering, Georgia Institute of Technology, 2024
+    </p>
+  </section>
+
   <!-- List of News Posts -->
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title}}</h2>
+    <h2 class="post-list-heading">{{ page.subtitle3}}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -51,8 +61,14 @@ show_excerpts: false
       </li>
       {%- endfor -%}
     </ul>
-
   {%- endif -%}
+
+  <!-- List of Awards -->
+  <h2 class="award-list-heading">{{ page.subtitle4 }}</h2>
+  <ul class="award-list">
+    <li>National Science Foundation Graduate Research Fellowship (NSF GRFP), 2024-2029</li>
+    <li>G.D. Jain Outstanding Senior in Biomedical Engineering, 2024</li>
+  </ul>
 
 </div>
 
