@@ -6,6 +6,8 @@ permalink: /publications/
 
 ### Journal Articles
 
+* Wu R, Ferreira G, Khan NS, Mahmud ST, **Stoop J**, Sohn LL, Leopold JA, Randles A. (2026) Digital twins and digital models of the human circulatory system. Nat Rev Bioeng. [https://doi.org/10.1038/s44222-026-00427-5](https://doi.org/10.1038/s44222-026-00427-5){:target="_blank"}
+
 * **Stoop J**, Yokoyama Y, Adachi T. (2024) Timing of resting zone parathyroid hormone-related protein expression affects maintenance of the growth plate during secondary ossification: a computational study. Biomech Model Mechanobiol. [https://doi.org/10.1007/s10237-024-01899-3](https://doi.org/10.1007/s10237-024-01899-3){:target="_blank"}
 
 * Hladyshau S, **Stoop JP**, Kamada K, Nie S, Tsygankov D. (2023) Spatiotemporal Coordination of Rac1 and Cdc42 at the Whole Cell Level during Cell Ruffling. Cells 12:1638. [https://doi.org/10.3390/cells12121638](https://doi.org/10.3390/cells12121638){:target="_blank"}
