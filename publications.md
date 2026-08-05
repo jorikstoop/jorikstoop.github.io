@@ -18,4 +18,7 @@ permalink: /publications/
 
 * Martin A, Yousef A, Liu G, Ladd W, Georgiadou A, **Stoop J**, Randles A. (2025) Performance Portability Evaluation of Fluid-Structure Interaction Simulations on Heterogeneous Platforms. ISC High Performance 2025. [https://ieeexplore.ieee.org/abstract/document/11018299](https://ieeexplore.ieee.org/abstract/document/11018299){:target="blank"}
 
+<br>
+### Preprint
 
+* Tagay Y, Zhovmer AS, Sarkar N, Stoop J, Su L, Fleszar L, Peterman E Rasmussen JP, Cartagena-Rivera AX, Tsygankov D, Tabdanov ED. (2026) Dynein-microtubule forces drive nucleokinesis and transmigration in T cells. bioRxiv. [https://doi.org/10.64898/2026.07.02.736211](https://doi.org/10.64898/2026.07.02.736211){:target="blank"}

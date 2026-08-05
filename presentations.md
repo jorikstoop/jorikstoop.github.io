@@ -4,9 +4,7 @@ title: Presentations
 permalink: /presentations/
 ---
 
-### Conference Talks
-
-*  Yokoyama Y, **Stoop J**, Adachi T. (2025, November) Continnum-based particle modeling of primary and secondary ossification in bone morphogenesis. 13th Asian-Pacific Conference on Biomechanics (APBiomech), Auckland, New Zealand.
+### Oral Presentations
 
 * **Stoop J**, Martin A, Randles A. (2025, October) Adaptive physics refinement enables investigation of red blood cells’ impact on adhesive tumor cell transport. Biomedical Engineering Society Annual Meeting (BMES), San Diego, USA.
 
@@ -19,3 +17,8 @@ permalink: /presentations/
 ### Poster Presentations
 
 * **Stoop J**, Yokoyama Y, Adachi T. (2023, October) Predicting Structural Changes in Bone Morphogenesis using a Particle-based Model. ASME International Mechanical Engineering Congress & Exposition (IMECE), New Orleans, USA. <span style="color: blue;">**BEST UNDERGRADUATE POSTER AWARD**</span>
+
+<br>
+### Conference Abstracts
+
+*  Yokoyama Y, **Stoop J**, Adachi T. (2025, November) Continnum-based particle modeling of primary and secondary ossification in bone morphogenesis. 13th Asian-Pacific Conference on Biomechanics (APBiomech), Auckland, New Zealand.
