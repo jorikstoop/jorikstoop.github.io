@@ -1,14 +1,10 @@
 #current song recommendations:
-- name: POERTY IN MOTION
-  by: "- SiR"
+- name: Folded
+  by: "- Kehlani"
   type: current
 
-- name: WELTiTA
-  by: "- Bad Bunny"
-  type: current
-
-- name: Love Me Not
-  by: "- Ravyn Lenae"
+- name: Life Boat.
+  by: "- RAYE"
   type: current
 
 #all time favorites:
@@ -29,6 +25,18 @@
   type: alltime
 
 #previous song recommendations:
+- name: POERTY IN MOTION
+  by: "- SiR"
+  type: previous
+
+- name: WELTiTA
+  by: "- Bad Bunny"
+  type: previous
+
+- name: Love Me Not
+  by: "- Ravyn Lenae"
+  type: previous
+
 - name: Balloon (feat. Doechii)
   by: "- Tyler, The Creator"
   type: previous

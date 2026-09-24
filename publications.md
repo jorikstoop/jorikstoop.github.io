@@ -6,6 +6,8 @@ permalink: /publications/
 
 ### Journal Articles
 
+* **Stoop J**, Martin A, Randles A. (2026) An adaptive physics refinement framework to investigate red blood cells' impact on adhesive tumor cell transport. Biomech Model Mechanobiol. [https://doi.org/10.1007/s10237-026-02131-0](https://doi.org/10.1007/s10237-026-02131-0){:target="_blank"}
+
 * Wu R, Ferreira G, Khan NS, Mahmud ST, **Stoop J**, Sohn LL, Leopold JA, Randles A. (2026) Digital twins and digital models of the human circulatory system. Nat Rev Bioeng. [https://doi.org/10.1038/s44222-026-00427-5](https://doi.org/10.1038/s44222-026-00427-5){:target="_blank"}
 
 * **Stoop J**, Yokoyama Y, Adachi T. (2024) Timing of resting zone parathyroid hormone-related protein expression affects maintenance of the growth plate during secondary ossification: a computational study. Biomech Model Mechanobiol. [https://doi.org/10.1007/s10237-024-01899-3](https://doi.org/10.1007/s10237-024-01899-3){:target="_blank"}
@@ -21,4 +23,4 @@ permalink: /publications/
 <br>
 ### Preprint
 
-* Tagay Y, Zhovmer AS, Sarkar N, Stoop J, Su L, Fleszar L, Peterman E Rasmussen JP, Cartagena-Rivera AX, Tsygankov D, Tabdanov ED. (2026) Dynein-microtubule forces drive nucleokinesis and transmigration in T cells. bioRxiv. [https://doi.org/10.64898/2026.07.02.736211](https://doi.org/10.64898/2026.07.02.736211){:target="blank"}
+* Tagay Y, Zhovmer AS, Sarkar N, **Stoop J**, Su L, Fleszar L, Peterman E Rasmussen JP, Cartagena-Rivera AX, Tsygankov D, Tabdanov ED. (2026) Dynein-microtubule forces drive nucleokinesis and transmigration in T cells. bioRxiv. [https://doi.org/10.64898/2026.07.02.736211](https://doi.org/10.64898/2026.07.02.736211){:target="blank"}
