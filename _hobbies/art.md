@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Art
-permalink: /projects/art
+permalink: /hobbies/art
 published: false
 cover_img: /assets/img/"".jpg
 ---

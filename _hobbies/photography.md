@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My Photography
-permalink: /projects/photography
+permalink: /hobbies/photography
 published: true
 cover_img: /assets/img/foto_cover.png
 ---

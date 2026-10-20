@@ -24,6 +24,7 @@ header_pages:
   - publications.md
   - presentations.md
   - projects.md
+  - hobbies.md
 
 #Footer
 email: jorik.stoop@duke.edu
@@ -38,9 +39,11 @@ github_username:  jorikstoop
 linkedin_username: jorik-stoop
 instagram_username: jorikstoop
 
-#Projects Collection
+# Collections
 collections:
   projects:
+    output: true
+  hobbies:
     output: true
 
 # Build settings

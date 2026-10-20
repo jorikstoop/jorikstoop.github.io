@@ -10,7 +10,11 @@ permalink: /projects/
     {%- for project in site.projects -%}
     {%- if project.published -%}
       <div class="project-container">
-        <a href="{{ project.url }}" class = "project-link">
+        {% if project.external_url %}
+          <a href="{{ project.external_url }}" class="project-link" target="_blank">
+        {% else %}
+          <a href="{{ project.url }}" class="project-link">
+        {% endif %}
         <div class = "project-image-container"><img src="{{ project.cover_img }}" alt="Cover Image"></div>
         <div class="project-title-container">{{project.title}}</div>
         </a>

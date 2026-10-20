@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Music
-permalink: /projects/music
+permalink: /hobbies/music
 published: true
 cover_img: /assets/img/music_cover.jpg
 ---
