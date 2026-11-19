@@ -8,6 +8,9 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  // make sure header displays on top of other layers
+  z-index: 100;
 }
 
 .site-title {
@@ -47,6 +50,7 @@
   }
 
   @include media-query($on-palm) {
+    // collapse to dropdown menu for small screen
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
@@ -60,7 +64,6 @@
       float: right;
       width: 36px;
       height: 36px;
-      z-index: 2;
       cursor: pointer;
     }
 
@@ -101,13 +104,16 @@
 }
 
 
-
 /**
  * Site footer
  */
 .site-footer {
   border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding: $spacing-unit / 2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: $background-color;
 }
 
 .footer-heading {
@@ -139,80 +145,30 @@
   @include relative-font-size(0.9375);
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
   display: flex;
 }
 
 .footer-col {
-  float: left;
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: 0;
   padding-left: $spacing-unit / 2;
 }
 
-/* Three column footer with email, socials, and site description */
-/*
-.footer-col-1 {
-  order: 1;
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-  width:         calc(30% - (#{$spacing-unit} / 2));
+// footer with only socials
+.footer-col-1,
+.footer-col-3{
+  display: none; 
+}
+.footer-col-2{
+  width:         calc(100% - (#{$spacing-unit} / 2));   
 }
 
-.footer-col-2 {
-  order: 2;
-  width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-  width:         calc(40% - (#{$spacing-unit} / 2));
-  float: none;
-}
-
-.footer-col-3 {
-  order: 3;
-  text-align: right;
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-  width:         calc(30% - (#{$spacing-unit} / 2));
-}*/
-
-/* footer with only socials */
-  .footer-col-1,
-  .footer-col-3{
-    display: none; 
-  }
-  .footer-col-2{
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));   
-  }
-
-/* Don't change anything for 600-800px screen size
-@include media-query($on-laptop) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-  }
-}*/
-
-@include media-query($on-palm) {
-  /* For on-palm (narrow screen) only display the middle column with socials */
-  .footer-col-1,
-  .footer-col-3{
-    display: none; 
-  }
-
-  .footer-col-2{
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));   
-  }
-}
 
 /**
  * Page content (Site Homepage)
  */
 .page-content {
   padding: $spacing-unit 0;
+  padding-bottom: $spacing-unit * 3;
   flex: 1;
 }
 
@@ -231,12 +187,6 @@
   display: flex;
   width: 100%;
   align-items: start;
-  /*justify-content: center;*/
-}
-@include media-query($on-palm) {
-  .about-me-container{
-    display: block;
-  }
 }
 .about-me-text {
   flex: 65;
@@ -251,9 +201,23 @@
   height: auto;
   border-radius: 8px;
 }
+@include media-query($on-palm) {
+  .about-me-container{
+    display: block;
+  }
+  .about-me-text {
+    margin-right: 0;
+  }
+}
+
 
 // EDUCATION
 .education-heading {
+  @include relative-font-size(1.75);
+}
+
+// AWARDS LIST
+.award-list-heading {
   @include relative-font-size(1.75);
 }
 
@@ -271,24 +235,19 @@
 }
 .post-container{
   display: flex;
-  align-items: top;
+  align-items: flex-start;
 }
 .post-meta {
+  flex: 0 0 125px; // set consistent width for date
   font-size: $small-font-size;
   color: $grey-color;
   padding-top: 5px;
-  margin-right: 30px;
 }
 .post-link {
   display: block;
-  //@include relative-font-size(1.5);
   @include relative-font-size(1.25);
 }
 
-// AWARDS LIST
-.award-list-heading {
-  @include relative-font-size(1.75);
-}
 
 /**
  * Posts
@@ -297,13 +256,12 @@
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  //@include relative-font-size(2.625);
   @include relative-font-size(2);
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+    @include relative-font-size(1.75);
   }
 }
 .post-content {
@@ -345,14 +303,12 @@
 
 .project-container{
   margin: $spacing-unit/2;
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
   width:         calc(30% - (#{$spacing-unit} / 2));
   height: 200px;
   background: grey;
   border-radius: 8px;
 
   @include media-query($on-palm) {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
   }
 }
@@ -396,4 +352,15 @@
   @include media-query($on-palm) {
     @include relative-font-size(1);
   }
+}
+
+
+/**
+ * Scroll bar
+ */
+
+// make space on all pages (even short ones) for scrollbar
+// this keeps horizontal spacing of all pages same
+html {
+  scrollbar-gutter: stable;
 }
