@@ -38,3 +38,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 #for local testing
 gem "webrick", "~> 1.8"
+
+gem "csv", "~> 3.3"
+gem "logger", "~> 1.7"

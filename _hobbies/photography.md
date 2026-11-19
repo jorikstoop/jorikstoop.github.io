@@ -22,14 +22,6 @@ cover_img: /assets/img/foto_cover.png
     <div class="img-nyc">
       <img src="/assets/img/nyc.jpg" alt="NYC Skyline">
     </div>
-  </div> 
-  <div class="photography-row">
-    <div class="img-GT">
-      <img src="/assets/img/techtower.jpg" alt="Tech Tower">
-    </div>
-    <div class="img-ATL">
-      <img src="/assets/img/roof.jpg" alt="Roof in ATL">
-    </div>
   </div>
 </section>
 
@@ -64,11 +56,11 @@ cover_img: /assets/img/foto_cover.png
       <img src="/assets/img/alps.jpg" alt="Swiss Alps">
     </div>
   </div>
-    <div class="photography-row">
+  <!-- <div class="photography-row">
     <div class="img-car">
       <img src="/assets/img/car.jpg" alt="Canary Islands">
     </div>
-  </div>
+  </div> -->
 </section>
 
 
